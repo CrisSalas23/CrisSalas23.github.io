@@ -1,16 +1,13 @@
-
-
-
-h3 {
-   
+h2 {
    text-align: center;
-   width: 100px;
-   border: 4px outset grey;
-   padding: 10px;
-   margin: 4px 4px 4px 4px
+   border: 1px outset;
+   width: 150px;
+   padding-left: 600px;
+   padding-right: 610px;
+   
 }
+
 p{
-   background-color: aqua;
    text-align: center;
    width: 850px;
    border: 4px outset gray;
@@ -18,8 +15,15 @@ p{
    margin: 4px 4px 4px 4px
    
 }
-h2 {
+
+h3 {
+   
    text-align: center;
+   width: 100px;
+   border: 4px outset gray;
+   padding-left: 600px;
+   padding-right: 650px;
+   margin: 4px 4px 4px 4px
 }
 
 body {
@@ -27,4 +31,38 @@ body {
    background-repeat: no-repeat;
    background-attachment: fixed;
    background-size: 100% 100%;
+}
+ul{
+   border: hidden;
+   ;
+}
+li {
+   border: hidden;
+   font-size: 20px;
+}
+
+#imagen {
+   padding-left: 630px;}
+
+
+#opción1 {
+   display: none;
+}
+
+#opción2 {
+   display: none;
+}
+
+#opción3 {
+   display: none;
+}
+
+#opción4 {
+   display: none;
+}
+
+button:hover {
+   background-color : gray;
+   font-size: large;
+
 }
